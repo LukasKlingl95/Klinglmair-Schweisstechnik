@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Schweißtechnik Klinglmair</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f8;
+      color: #222;
+    }
+    header {
+      background: #ffffff;
+      border-bottom: 4px solid #0b5fa5;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    header img {
+      height: 70px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #0b5fa5;
+    }
+    nav {
+      background: #1f1f1f;
+      padding: 10px 20px;
+    }
+    nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin-right: 20px;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1581091012184-7c54c1f42f9b');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+    .section {
+      padding: 50px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+    .section h2 {
+      color: #0b5fa5;
+      margin-bottom: 20px;
+    }
+    .leistungen {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .box {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #1f1f1f;
+      color: #ffffff;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Schweißtechnik Klinglmair Logo" />
+  <h1>Schweißtechnik Klinglmair</h1>
+</header>
+
+<nav>
+  <a href="#start">Start</a>
+  <a href="#leistungen">Leistungen</a>
+  <a href="#unternehmen">Unternehmen</a>
+  <a href="#kontakt">Kontakt</a>
+</nav>
+
+<section class="hero" id="start">
+  <h2>Professionelle Schweißtechnik & Schweißaufsicht</h2>
+  <p>Qualität, Sicherheit und Fachkompetenz aus einer Hand</p>
+</section>
+
+<section class="section" id="unternehmen">
+  <h2>Über uns</h2>
+  <p>
+    Schweißtechnik Klinglmair ist Ihr zuverlässiger Partner im Bereich Schweißtechnik 
+    und Schweißaufsicht. Wir unterstützen Unternehmen bei der Umsetzung normgerechter 
+    Schweißarbeiten und sorgen für höchste Qualitätsstandards.
+  </p>
+</section>
+
+<section class="section" id="leistungen">
+  <h2>Unsere Leistungen</h2>
+  <div class="leistungen">
+    <div class="box">
+      <h3>Schweißaufsicht</h3>
+      <p>Überwachung und Sicherstellung der Qualität nach geltenden Normen (z. B. EN ISO 3834).</p>
+    </div>
+    <div class="box">
+      <h3>Schweißtechnik</h3>
+      <p>Fachliche Beratung und Unterstützung bei schweißtechnischen Fragestellungen.</p>
+    </div>
+    <div class="box">
+      <h3>Qualitätssicherung</h3>
+      <p>Dokumentation, Prüfpläne und Optimierung von Schweißprozessen.</p>
+    </div>
+    <div class="box">
+      <h3>Beratung & Betreuung</h3>
+      <p>Individuelle Betreuung von Projekten – von der Planung bis zur Umsetzung.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="kontakt">
+  <h2>Kontakt</h2>
+  <p>
+    Schweißtechnik Klinglmair<br />
+    Musterstraße 1<br />
+    0000 Musterstadt<br /><br />
+    Telefon: +43 xxx xxx xxx<br />
+    E-Mail: info@schweisstechnik-klinglmair.at
+  </p>
+</section>
+
+<section class="section" id="impressum">
+  <h2>Impressum</h2>
+  <p>
+    Angaben gemäß § 5 TMG<br /><br />
+    Schweißtechnik Klinglmair<br />
+    Hinterschweigerstraße 4b 1<br />
+    4600 Wels <br /><br />
+    Telefon: +43 664 80 57 96 261<br />
+    E-Mail: info@schweisstechnik-klinglmair.at<br /><br />
+    Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br />
+    Lukas Klinglmair
+  </p>
+</section>
+
+<section class="section" id="datenschutz">
+  <h2>Datenschutzerklärung</h2>
+  <p>
+    Der Schutz Ihrer persönlichen Daten ist uns ein besonderes Anliegen. Wir verarbeiten Ihre Daten daher
+    ausschließlich auf Grundlage der gesetzlichen Bestimmungen (DSGVO, TMG).
+  </p>
+  <p>
+    <strong>Kontaktaufnahme</strong><br />
+    Wenn Sie per E-Mail Kontakt mit uns aufnehmen, werden Ihre angegebenen Daten zwecks Bearbeitung der Anfrage
+    und für den Fall von Anschlussfragen sechs Monate bei uns gespeichert. Diese Daten geben wir nicht ohne Ihre
+    Einwilligung weiter.
+  </p>
+  <p>
+    <strong>Ihre Rechte</strong><br />
+    Ihnen stehen grundsätzlich die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit,
+    Widerruf und Widerspruch zu. Wenn Sie glauben, dass die Verarbeitung Ihrer Daten gegen das Datenschutzrecht
+    verstößt, haben Sie das Recht, sich bei der Aufsichtsbehörde zu beschweren.
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 Schweißtechnik Klinglmair · Alle Rechte vorbehalten</p>
+</footer>
+
+</body>
+</html>
